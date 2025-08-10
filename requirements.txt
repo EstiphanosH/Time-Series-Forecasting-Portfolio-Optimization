@@ -1,0 +1,59 @@
+# requirements.txt
+
+# This file lists the Python dependencies for the project, with versions pinned
+# to ensure a stable, reproducible, and conflict-free environment.
+# It can be installed using the command: pip install -r requirements.txt
+
+# -----------------------------------------------------------------
+# Core Libraries for Data Analysis, Science, and Numerics
+# -----------------------------------------------------------------
+pandas==2.2.2
+numpy==1.26.4
+scipy==1.13.0
+scikit-learn==1.5.1
+
+# -----------------------------------------------------------------
+# Financial Data & Modeling
+# -----------------------------------------------------------------
+yfinance==0.2.40
+statsmodels==0.14.2
+pmdarima==2.0.4
+PyPortfolioOpt==1.5.5
+
+# -----------------------------------------------------------------
+# Experiment Tracking & Versioning
+# -----------------------------------------------------------------
+mlflow==2.14.1
+
+# -----------------------------------------------------------------
+# Interactive Dashboard & Reporting
+# -----------------------------------------------------------------
+streamlit==1.36.0
+plotly==5.22.0
+fpdf2==2.7.9
+
+# -----------------------------------------------------------------
+# Utilities
+# -----------------------------------------------------------------
+joblib==1.4.2
+
+# -----------------------------------------------------------------
+# Command-Line Interface (CLI)
+# -----------------------------------------------------------------
+typer[all]==0.12.3
+
+# -----------------------------------------------------------------
+# Development & Code Quality
+# -----------------------------------------------------------------
+pytest==8.2.2
+black==24.4.2
+flake8==7.1.0
+
+# -----------------------------------------------------------------
+# Visualization Library (Pinned for Compatibility)
+# -----------------------------------------------------------------
+# Pinning matplotlib to a stable version known to be compatible with the
+# current version of PyPortfolioOpt, avoiding deprecated style sheet errors.
+matplotlib==3.8.4
+seaborn
+ipykernel
